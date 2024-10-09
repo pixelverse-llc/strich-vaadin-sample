@@ -19,7 +19,7 @@ import java.util.List;
 
 @PageTitle("Multiple Scans")
 @Route("scan-continuous")
-@JavaScript(value = "https://cdn.jsdelivr.net/npm/@pixelverse/strichjs-sdk@1.5.3/dist/strich-noesm.js", loadMode = LoadMode.EAGER)
+@JavaScript(value = "https://cdn.jsdelivr.net/npm/@pixelverse/strichjs-sdk@1.5.4/dist/strich-noesm.js", loadMode = LoadMode.EAGER)
 public class ScanMultipleView extends VerticalLayout {
 
     private static final int NUM_BARCODES = 4;
