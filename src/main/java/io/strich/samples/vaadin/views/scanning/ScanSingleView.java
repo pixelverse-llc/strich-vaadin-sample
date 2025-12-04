@@ -16,7 +16,7 @@ import com.vaadin.flow.shared.ui.LoadMode;
 
 @PageTitle("Single Scan")
 @Route("scan-single")
-@JavaScript(value = "https://cdn.jsdelivr.net/npm/@pixelverse/strichjs-sdk@1.11.0/dist/strich-noesm.js", loadMode = LoadMode.EAGER)
+@JavaScript(value = "https://cdn.jsdelivr.net/npm/@pixelverse/strichjs-sdk@1.12.0/dist/strich-noesm.js", loadMode = LoadMode.EAGER)
 public class ScanSingleView extends VerticalLayout {
 
     public ScanSingleView() {

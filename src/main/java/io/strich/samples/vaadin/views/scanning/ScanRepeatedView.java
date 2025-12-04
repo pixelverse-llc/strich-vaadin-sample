@@ -17,7 +17,7 @@ import com.vaadin.flow.shared.ui.LoadMode;
 
 @PageTitle("Repeated Scans")
 @Route("scan-repeated")
-@JavaScript(value = "https://cdn.jsdelivr.net/npm/@pixelverse/strichjs-sdk@1.11.0/dist/strich-noesm.js", loadMode = LoadMode.EAGER)
+@JavaScript(value = "https://cdn.jsdelivr.net/npm/@pixelverse/strichjs-sdk@1.12.0/dist/strich-noesm.js", loadMode = LoadMode.EAGER)
 public class ScanRepeatedView extends VerticalLayout {
 
     private int codesScanned = 0;
